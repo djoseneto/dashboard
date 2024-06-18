@@ -1,10 +1,8 @@
-import React from 'react';
 import ReactApexChart from 'react-apexcharts';
 
-import { ApexOptions } from 'apexcharts'; // Importando ApexOptions para tipagem
+import { ApexOptions } from 'apexcharts';
 
 const ApexChartPolarArea: React.FC = () => {
-  // Definindo séries e opções do gráfico
   const series = [{
     name: 'PRODUCT A',
     data: [30, 40, 35, 50, 49, 60, 70, 91, 125]
