@@ -396,7 +396,7 @@ const Home = () => {
           <ApexChartPolarArea />
         </div>
       </Box>
-      <Table columns={columns} dataSource={data} />;
+      <Table columns={columns} dataSource={data} />
     </Container>
   );
 };
