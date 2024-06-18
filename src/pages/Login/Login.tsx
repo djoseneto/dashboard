@@ -1,5 +1,4 @@
 import { ArrowRightIcon, ChartPieIcon, CheckBadgeIcon } from '@heroicons/react/24/outline'
-import React from 'react'
 
 export default function Login() {
     return (
